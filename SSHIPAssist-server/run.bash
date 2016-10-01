@@ -9,7 +9,7 @@ function valid () {
 }
 
 rm build/libs/SSHIPAssist-server-all-1.0.jar;
-gradle fatjar;
+../gradlew fatjar;
 
 if [ valid ]; then
 	java -jar build/libs/SSHIPAssist-server-all-1.0.jar "$@";
