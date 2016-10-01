@@ -11,6 +11,7 @@ SSHIPAssist is written in Java and used Gradle as the build tool. You do not nee
 ## Requirements
 
 * Linux machine.
+* Java (JDK 1.8).
 
 ## Setup
 
