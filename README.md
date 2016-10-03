@@ -23,8 +23,8 @@ SSHIPAssist is written in Java and uses Gradle as the build tool. You do not nee
 
 Bash scripts are included for simplified execution on Linux machines. Other OSs can still use the program but you will have to look at the client.bash and server.bash files to see how it needs to be executed.
 
-* To execute the server (see section [Server](#Server) for more information) execute ./server.bash
-* To execute the client (see section [Client](#Client) for more information) execute ./client.bash
+* To execute the server (see section [Server](#server) for more information) execute ./server.bash
+* To execute the client (see section [Client](#client) for more information) execute ./client.bash
 * Add the --help argument to get a list of command that can be used with either of these programs.
 
 ## User Configuration
