@@ -146,6 +146,7 @@ public class SSHIPAssistServer {
 				if (sshipassist.getExecuteOnlyOnce() || response.startsWith("ERROR"))
 					break;
 
+				System.out.flush();
 				Thread.sleep(Integer.parseInt(details.get("updateinterval")));
 			}
 		}
