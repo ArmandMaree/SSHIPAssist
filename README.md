@@ -58,4 +58,4 @@ You can either choose your own 16 character key or you can use the --genkey argu
 
 ### Code Haven Password Hashing
 
-Code haven does not store any passwords. We use the SHA-512 hashing algorithm with a 1000 iterations to validate your identity when you login.
+Code haven does not store any raw passwords. We use the SHA-512 hashing algorithm with a 1000 iterations to validate your identity when you login.
